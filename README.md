@@ -11,7 +11,7 @@ URL to Test: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 Test Cases: https://docs.google.com/spreadsheets/d/1wrjniSMdZRruHvO_e6jLm8NRxJoj7OUTPflJCgiUhrs/edit?usp=drive_link  
 
-Test Plan Document : https://docs.google.com/document/d/1YQODUXrY6zuQ1YRw_OBJFZFju__W5xAd_tQDf6IqFj0/edit?usp=sharing  
+Test Plan Document: https://docs.google.com/document/d/1YQODUXrY6zuQ1YRw_OBJFZFju__W5xAd_tQDf6IqFj0/edit?usp=sharing  
 
 Jobdesk:  
 1. Cindy Ulan Purwanti  
@@ -20,7 +20,8 @@ Jobdesk:
    - Menu Admin - User Management - Users  
    - Menu Admin - User Management - Users - Add User  
    - Menu Admin - User Management - Users - Edit User  
-   - Menu Admin - User Management - Users - Delete User  
+   - Menu Admin - User Management - Users - Delete User   
+
    Test: Manual and Automation  
 
 2. Imsa Nur Dwijayanti  
@@ -29,6 +30,7 @@ Jobdesk:
    - Menu Admin - Organization - Add Locations 
    - Menu Admin - Organization - Edit Locations  
    - menu Admin - Organization - Delete Locations  
+
    Test: Manual and Automation  
      
 3. Imam Fauzi  
@@ -36,7 +38,8 @@ Jobdesk:
    - Menu PIM - Employee List  
    - Menu PIM - Add Employee  
    - Menu PIM - Edit Employee  
-   - Menu PIM - Delete Employee 
+   - Menu PIM - Delete Employee  
+   
    Test: Manual and Selenium  
      
 Automation Used:  
