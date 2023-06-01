@@ -1,5 +1,5 @@
 # SanbercodeQA-Kelompok13
-Batch 45
+Sanbercode Quality Assurance Batch 45
 
 Team Member:  
 
@@ -20,7 +20,8 @@ Jobdesk:
    - Menu Admin - User Management - Users  
    - Menu Admin - User Management - Users - Add User  
    - Menu Admin - User Management - Users - Edit User  
-   - Menu Admin - User Management - Users - Delete User   
+   - Menu Admin - User Management - Users - Delete User  
+
    Test: Manual and Automation  
 
 2. Imsa Nur Dwijayanti  
@@ -29,6 +30,7 @@ Jobdesk:
    - Menu Admin - Organization - Add Locations 
    - Menu Admin - Organization - Edit Locations  
    - menu Admin - Organization - Delete Locations  
+
    Test: Manual and Automation  
      
 3. Imam Fauzi  
@@ -37,6 +39,7 @@ Jobdesk:
    - Menu PIM - Add Employee  
    - Menu PIM - Edit Employee  
    - Menu PIM - Delete Employee  
+
    Test: Manual and Selenium  
      
 Automation Used:  
