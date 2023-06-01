@@ -45,7 +45,7 @@ Jobdesk:
 Automation Used:  
 - Python and Selenium  
   
-Browser Testing:  
+Browser for Testing:  
 - Google Chrome  
   
-Capture run Testing: https://drive.google.com/drive/folders/1pAS-V4z7VsneuRlOPaLLv6rAjXXNtjco?usp=drive_link
+Capture Results of Running Automation Testing: https://drive.google.com/drive/folders/1pAS-V4z7VsneuRlOPaLLv6rAjXXNtjco?usp=drive_link
