@@ -1,0 +1,10 @@
+class input():
+    invalidCred = "Invalid credentials"
+    required = "Required"
+    username = "Admin"
+    password = "admin123"
+    upcaseUsername = "ADMIN"
+    invalidUsername = "lala"
+    invalidPassword = "abc123"
+    loginTxt = "Login"
+    dashboardTxt ="Dashboard"
