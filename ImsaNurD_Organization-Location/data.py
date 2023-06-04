@@ -1,0 +1,10 @@
+class addData():
+    name = "IND"
+    city = "Cirebon"
+    pCode = "1234"
+    phone = "0987654321"
+    address = "Cirebon"
+    state = "East Java"
+    #country = "termasuk dalam element.py"
+    fax = "12345"
+    notes = "Testing"
