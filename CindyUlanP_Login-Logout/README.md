@@ -12,6 +12,7 @@
 
 ## Test Result  
 Login & Logout: https://drive.google.com/drive/folders/12UgIYhT0jZIxyXVwozuproxdkTF33miQ?usp=drive_link  
+Menu Admin-User Management: https://drive.google.com/drive/folders/1f8qDCgUEslVwgTNKkOG-IFnTeHKq9K2l?usp=drive_link  
 
 ## Detail Information  
 1. BaseLogin.py : Project file that contains Negative & Positive test cases  
