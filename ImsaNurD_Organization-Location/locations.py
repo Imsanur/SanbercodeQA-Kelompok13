@@ -173,7 +173,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Add Location')
 
 
-    # OHMR31 - Add location failed (Blank city field)
+    # OHMR31 - Add location successfully (Blank city field)
     def add_location_failed_blank_city_fields(self):
         # steps
         driver = self.browser
@@ -198,7 +198,7 @@ class TestAOL(unittest.TestCase):
         # Add Location
         driver.find_element(By.XPATH, elem.nameAdd).send_keys("coba1")
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.city).send_keys(addData.city)
+        driver.find_element(By.XPATH, elem.city).send_keys("")
         time.sleep(1)
         driver.find_element(By.XPATH, elem.pCode).send_keys(addData.pCode)
         time.sleep(1)
@@ -233,7 +233,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Locations')
 
 
-    # OHMR32 - Add location failed (Blank state field)
+    # OHMR32 - Add location successfully (Blank state field)
     def add_location_failed_blank_state_fields(self):
         # steps
         driver = self.browser
@@ -266,7 +266,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.XPATH, elem.address).send_keys(addData.address)
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.state).send_keys(addData.state)
+        driver.find_element(By.XPATH, elem.state).send_keys("")
         time.sleep(1)
         driver.find_element(By.XPATH, elem.fax).send_keys(addData.fax)
         time.sleep(1)
@@ -293,7 +293,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Locations')
 
 
-    # OHMR33 - Add location failed (Blank post code field)
+    # OHMR33 - Add location successfully (Blank post code field)
     def add_location_failed_blank_pcode_fields(self):
         # steps
         driver = self.browser
@@ -320,7 +320,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.XPATH, elem.city).send_keys(addData.city)
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.pCode).send_keys(addData.pCode)
+        driver.find_element(By.XPATH, elem.pCode).send_keys("")
         time.sleep(1)
         driver.find_element(By.XPATH, elem.phone).send_keys(addData.phone)
         time.sleep(1)
@@ -412,7 +412,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Add Location')
 
 
-    # OHMR35 - Add location failed (Blank phone field)
+    # OHMR35 - Add location successfully (Blank phone field)
     def add_location_failed_blank_phone_fields(self):
         # steps
         driver = self.browser
@@ -441,7 +441,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.XPATH, elem.pCode).send_keys(addData.pCode)
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.phone).send_keys(addData.phone)
+        driver.find_element(By.XPATH, elem.phone).send_keys("")
         time.sleep(1)
         driver.find_element(By.XPATH, elem.address).send_keys(addData.address)
         time.sleep(1)
@@ -532,7 +532,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Add Location')
 
 
-    # OHMR37 - Add location failed (Blank fax field)
+    # OHMR37 - Add location successfully (Blank fax field)
     def add_location_failed_blank_fax_fields(self):
         # steps
         driver = self.browser
@@ -567,7 +567,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.XPATH, elem.state).send_keys(addData.state)
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.fax).send_keys(addData.fax)
+        driver.find_element(By.XPATH, elem.fax).send_keys("")
         time.sleep(1)
         
         # dropdown country
@@ -652,7 +652,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Add Location')
 
 
-    # OHMR39 - Add location failed (Blank address field)
+    # OHMR39 - Add location successfully (Blank address field)
     def add_location_failed_blank_address_fields(self):
         # steps
         driver = self.browser
@@ -683,7 +683,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         driver.find_element(By.XPATH, elem.phone).send_keys(addData.phone)
         time.sleep(1)
-        driver.find_element(By.XPATH, elem.address).send_keys(addData.address)
+        driver.find_element(By.XPATH, elem.address).send_keys("")
         time.sleep(1)
         driver.find_element(By.XPATH, elem.state).send_keys(addData.state)
         time.sleep(1)
@@ -712,7 +712,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Locations')
 
 
-    # OHMR40 - Add location failed (Blank notes field)
+    # OHMR40 - Add location successfully (Blank notes field)
     def add_location_failed_blank_notes_fields(self):
         # steps
         driver = self.browser
@@ -759,7 +759,7 @@ class TestAOL(unittest.TestCase):
         time.sleep(1)
         dropdown.send_keys(Keys.RETURN)
         
-        driver.find_element(By.XPATH, elem.notes).send_keys(addData.notes)
+        driver.find_element(By.XPATH, elem.notes).send_keys("")
 
         # Button Save
         driver.find_element(
