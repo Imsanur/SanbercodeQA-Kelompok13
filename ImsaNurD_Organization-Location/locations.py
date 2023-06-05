@@ -23,7 +23,7 @@ class TestAOL(unittest.TestCase):
         self.browser.quit()
 
     # OHMR28 - Add location successfully
-    def add_location_successully(self):
+    def add_location_successfully(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -1026,7 +1026,7 @@ class TestAOL(unittest.TestCase):
         self.assertIn(response_data, 'Locations')
 
 
-    # OHMR48 - Delete location successully
+    # OHMR48 - Delete location successfully
     def delete_location_successfully(self):
         # steps
         driver = self.browser
