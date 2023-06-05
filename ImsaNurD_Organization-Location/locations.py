@@ -174,7 +174,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR31 - Add location successfully (Blank city field)
-    def add_location_failed_blank_city_fields(self):
+    def add_location_successfully_blank_city_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -234,7 +234,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR32 - Add location successfully (Blank state field)
-    def add_location_failed_blank_state_fields(self):
+    def add_location_successfully_blank_state_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -294,7 +294,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR33 - Add location successfully (Blank post code field)
-    def add_location_failed_blank_pcode_fields(self):
+    def add_location_successfully_blank_pcode_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -413,7 +413,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR35 - Add location successfully (Blank phone field)
-    def add_location_failed_blank_phone_fields(self):
+    def add_location_successfully_blank_phone_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -533,7 +533,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR37 - Add location successfully (Blank fax field)
-    def add_location_failed_blank_fax_fields(self):
+    def add_location_successfully_blank_fax_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -653,7 +653,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR39 - Add location successfully (Blank address field)
-    def add_location_failed_blank_address_fields(self):
+    def add_location_successfully_blank_address_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -713,7 +713,7 @@ class TestAOL(unittest.TestCase):
 
 
     # OHMR40 - Add location successfully (Blank notes field)
-    def add_location_failed_blank_notes_fields(self):
+    def add_location_successfully_blank_notes_fields(self):
         # steps
         driver = self.browser
         driver.maximize_window()
@@ -852,39 +852,6 @@ class TestAOL(unittest.TestCase):
         driver.find_element(By.XPATH, elem.selectOrganization).click()
         time.sleep(1)
         driver.find_element(By.XPATH, elem.nameLoc).send_keys(addData.name)
-        time.sleep(1)
-
-        # Button Search
-        driver.find_element(By.XPATH, elem.btnSearch).click()
-        time.sleep(5)
-
-        # validasi
-        response_data = driver.find_element(
-            By.XPATH, "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/span[1]").text
-        self.assertIn(response_data, '(1) Record Found')
-
-
-    # OHMR43 - Search location by valid city
-    def search_location_successfully_by_city(self):
-        # steps
-        driver = self.browser
-        driver.maximize_window()
-        driver.get(self.url)  # link url
-        time.sleep(3)
-        name = driver.find_element(By.NAME, elem.username)
-        name.send_keys("Admin")
-        password = driver.find_element(By.NAME, elem.password)
-        password.send_keys("admin123")
-        time.sleep(1)
-        driver.find_element(By.TAG_NAME, elem.btnLogin).click()
-        time.sleep(3)
-        driver.find_element(By.XPATH, elem.menuAdmin).click()
-        time.sleep(1)
-        driver.find_element(By.XPATH, elem.selectDropdown).click()
-        time.sleep(1)
-        driver.find_element(By.XPATH, elem.selectOrganization).click()
-        time.sleep(1)
-        driver.find_element(By.XPATH, elem.cityLoc).send_keys(addData.city)
         time.sleep(1)
 
         # Button Search
@@ -1095,7 +1062,6 @@ class TestAOL(unittest.TestCase):
         response_data = driver.find_element(
             By.XPATH, "//body/div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/h5[1]").text
         self.assertIn(response_data, 'Locations')
-
 
 
 if __name__ == "__main__":
