@@ -21,6 +21,7 @@ Jobdesk:
    - Menu Admin - User Management - Users - Add User  
    - Menu Admin - User Management - Users - Edit User  
    - Menu Admin - User Management - Users - Delete User  
+   
    Test: Manual and Automation  
    File: CindyUlanP_Login-Logout
 
@@ -30,6 +31,7 @@ Jobdesk:
    - Menu Admin - Organization - Add Locations 
    - Menu Admin - Organization - Edit Locations  
    - menu Admin - Organization - Delete Locations  
+   
    Test: Manual and Automation  
    File: ImsaNurD_Organization-Location
      
@@ -39,6 +41,7 @@ Jobdesk:
    - Menu PIM - Add Employee  
    - Menu PIM - Edit Employee  
    - Menu PIM - Delete Employee  
+   
    Test: Manual and Selenium  
    File: ImamFauzi_PIM
      
