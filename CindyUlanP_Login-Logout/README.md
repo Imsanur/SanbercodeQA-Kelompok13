@@ -23,4 +23,4 @@ Menu Admin-User Management: https://drive.google.com/drive/folders/1f8qDCgUEslVw
 6. addUser.py :Project file contains add user test cases  
 7. searchUser.py : Project file contains search user test cases
 8. editUser.py : Project file contains edit user test cases  
-9. delete.User.py : Project file contains delete user test cases
+9. deleteUser.py : Project file contains delete user test cases
