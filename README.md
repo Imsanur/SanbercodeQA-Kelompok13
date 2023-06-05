@@ -14,15 +14,15 @@ Test Cases: https://docs.google.com/spreadsheets/d/1wrjniSMdZRruHvO_e6jLm8NRxJoj
 Test Plan Document: https://docs.google.com/document/d/1YQODUXrY6zuQ1YRw_OBJFZFju__W5xAd_tQDf6IqFj0/edit?usp=sharing  
 
 Jobdesk:  
-1. Cindy Ulan Purwanti  
+1. Cindy Ulan Purwanti   
    Test Cases:
    - Login & Logout  
    - Menu Admin - User Management - Users  
    - Menu Admin - User Management - Users - Add User  
    - Menu Admin - User Management - Users - Edit User  
    - Menu Admin - User Management - Users - Delete User  
-
    Test: Manual and Automation  
+   File: CindyUlanP_Login-Logout
 
 2. Imsa Nur Dwijayanti  
    Test Cases:  
@@ -30,8 +30,8 @@ Jobdesk:
    - Menu Admin - Organization - Add Locations 
    - Menu Admin - Organization - Edit Locations  
    - menu Admin - Organization - Delete Locations  
-
    Test: Manual and Automation  
+   File: ImsaNurD_Organization-Location
      
 3. Imam Fauzi  
    Test Cases:  
@@ -39,8 +39,8 @@ Jobdesk:
    - Menu PIM - Add Employee  
    - Menu PIM - Edit Employee  
    - Menu PIM - Delete Employee  
-
    Test: Manual and Selenium  
+   File: 
      
 Automation Used:  
 - Python and Selenium  
